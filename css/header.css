@@ -1,0 +1,47 @@
+:root {
+    --cor-do-fundo: #000a17;
+    --header: #00142e;
+    --cor-texto: #fff;
+}
+.icon img {
+    border-radius: 100%;
+    width: 4rem;
+    height: 4rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--cor-do-fundo);
+    color: var(--cor-texto);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--header);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    z-index: 100;
+    max-width: 100vw;
+    max-height: 10vh;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--cor-texto);
+    font-weight: 500;
+    margin-left: 1rem;
+  
+}
